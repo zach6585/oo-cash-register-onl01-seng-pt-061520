@@ -18,7 +18,7 @@ class CashRegister
       @total += price*quantity
       quantity.loop do 
         @items << title 
-      end 
+      
     else 
       @total += price 
       @items << title

@@ -33,6 +33,7 @@ class CashRegister
       @total -= (@discount*@total/100).to_i
       return "After the discount, the total comes to $#{@total}."
     end 
+  end 
   
   def items 
     @items

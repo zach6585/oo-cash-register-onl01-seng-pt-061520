@@ -52,7 +52,7 @@ class CashRegister
         @items.pop 
         i +=1 
       end 
-      
+      @total -= last_price
     end 
   end 
   

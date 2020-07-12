@@ -4,7 +4,7 @@ class CashRegister
   attr_writer :total 
   
   def initialize(discount = nil)
-    @total = 0
+    @total = 0.0 
     @discount = discount
   end 
   
@@ -25,8 +25,9 @@ class CashRegister
       puts "There is no discount to apply."
       @total
     else 
-      puts "After the discount, the total comes to #{@total - @total*@discount.div(100)}."
-      @total -= @discount.div(100)*@total 
+      puts "After the discount, the total comes to #{@total - @total*@discount/100}."
+      @total -= @discount*@total/100 
+      @total
     end 
   end 
     

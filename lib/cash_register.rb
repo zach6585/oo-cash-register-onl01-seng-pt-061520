@@ -27,7 +27,6 @@ class CashRegister
     else 
       puts "After the discount, the total comes to #{(@total - @total*@discount*1/100).to_i}."
       @total -= (@discount*@total/100).to_i
-      @total
     end 
   end 
     

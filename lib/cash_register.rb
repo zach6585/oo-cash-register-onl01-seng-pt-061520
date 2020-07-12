@@ -4,7 +4,7 @@ class CashRegister
   attr_writer :total 
   
   def initialize(discount = nil)
-    @total = 0.0 
+    @total = 0
     @discount = discount
   end 
   
@@ -26,7 +26,7 @@ class CashRegister
       @total
     else 
       puts "After the discount, the total comes to #{(@total - @total*@discount*1/100).to_i}."
-      @total -= @discount*@total/100 
+      @total -= @discount*@total/100) 
       @total
     end 
   end 

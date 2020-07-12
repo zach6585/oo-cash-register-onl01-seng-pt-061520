@@ -39,5 +39,6 @@ class CashRegister
   end 
   
   def void_transactions 
+    
   
 end 

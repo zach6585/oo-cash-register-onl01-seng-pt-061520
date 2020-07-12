@@ -26,7 +26,7 @@ class CashRegister
       @total
     else 
       @total -= (@discount*@total/100).to_i
-      return "After the discount, the total comes to #{(@total - @total*@discount*1/100).to_i}."
+      return "After the discount, the total comes to #{(@total}."
     end 
   end 
     

@@ -23,8 +23,8 @@ class CashRegister
         @items << title
         i +=1 
       end 
-      :last_price = price*quantity 
-      :last_quantity = quantity 
+      @last_price = price*quantity 
+      @last_quantity = quantity 
     else 
       @total += price 
       @items << title

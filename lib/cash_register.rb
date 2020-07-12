@@ -47,7 +47,8 @@ class CashRegister
       @items.pop
       @total -= @last_price
     else 
-      
+      i = 0 
+      while i < @last_quantity 
     end 
   end 
   

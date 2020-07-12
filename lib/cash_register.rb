@@ -50,6 +50,9 @@ class CashRegister
       i = 0 
       while i < @last_quantity 
         @items.pop 
+        i +=1 
+      end 
+      
     end 
   end 
   

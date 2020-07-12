@@ -23,6 +23,8 @@ class CashRegister
   def apply_discount
     if discount == nil 
       puts "There is no discount to apply."
+    else 
+      
     
   
 end 

@@ -4,7 +4,7 @@ class CashRegister
   attr_writer :total 
   
   def initialize(discount = nil)
-    @total = 0.0 
+    @total = 0
     @discount = discount
   end 
   

@@ -49,6 +49,7 @@ class CashRegister
     else 
       i = 0 
       while i < @last_quantity 
+      
     end 
   end 
   

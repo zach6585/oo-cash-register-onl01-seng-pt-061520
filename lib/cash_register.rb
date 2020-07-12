@@ -25,6 +25,7 @@ class CashRegister
       puts "There is no discount to apply."
     else 
       @total -= @discount 
+      
     
   
 end 

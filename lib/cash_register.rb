@@ -26,7 +26,7 @@ class CashRegister
       @total
     else 
       puts "After the discount, the total comes to #{@total -= @discount}."
-      @total += @discount 
+      @total -= @discount 
       @total
     end 
   end 

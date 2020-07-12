@@ -20,7 +20,7 @@ class CashRegister
     end 
   end 
   
-  def apply_discount
+  def apply_discount(discount)
     if !@discount 
       puts "There is no discount to apply."
       @total

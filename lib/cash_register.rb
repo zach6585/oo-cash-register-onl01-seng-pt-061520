@@ -25,7 +25,7 @@ class CashRegister
       @total += price 
       @items << title
     end 
-   
+   @last_price = price
     
   end 
   

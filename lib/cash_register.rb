@@ -17,7 +17,7 @@ class CashRegister
     if quantity != nil 
       @total += price*quantity
       quantity.loop do 
-         @items << title
+        @items << title
       end 
     else 
       @total += price 

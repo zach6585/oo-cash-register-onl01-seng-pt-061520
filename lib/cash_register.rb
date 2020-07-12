@@ -21,7 +21,7 @@ class CashRegister
         @items << title
         i +=1 
       end 
-    
+      last 
     else 
       @total += price 
       @items << title

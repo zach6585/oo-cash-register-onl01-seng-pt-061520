@@ -28,6 +28,7 @@ class CashRegister
     else 
       @total += price 
       @items << title
+      @last_price = price
     end 
    
     

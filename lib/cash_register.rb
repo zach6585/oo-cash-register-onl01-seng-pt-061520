@@ -19,7 +19,7 @@ class CashRegister
     else 
       @total += price 
     end 
-    
+    @items << title
     
   end 
   

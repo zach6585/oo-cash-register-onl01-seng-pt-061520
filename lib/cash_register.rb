@@ -21,7 +21,8 @@ class CashRegister
   end 
   
   def apply_discount
-    @total -= @discount
+    if discount == nil 
+      puts " There is no discount to apply."
     
   
 end 

@@ -46,8 +46,8 @@ class CashRegister
     if @last_quantity == 1 
       @items.pop
       @total -= @last_price
-    if @items == []
-      @total = 0
+    else 
+      
     end 
   end 
   

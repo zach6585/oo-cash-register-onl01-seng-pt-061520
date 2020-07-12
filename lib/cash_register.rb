@@ -7,6 +7,8 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
+    @last_quantity = 1 
+    @last_price = 0 
   end 
   
   def total
@@ -41,7 +43,7 @@ class CashRegister
   end 
   
   def void_last_transaction
-    @items 
+    if last_quantity
     @items.pop
     @total -= @last_price
     if @items == []
